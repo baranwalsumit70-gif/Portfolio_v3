@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sumit Kumar — Product Designer | UI/UX</title>
+  <meta name="description" content="Portfolio of Sumit Kumar (Baranwal Design), product designer with 3+ years in enterprise SaaS, AI-powered products and workflow tools. M.Des, IIT Guwahati.">
+  <meta property="og:title" content="Sumit Kumar — Product Designer">
+  <meta property="og:description" content="Enterprise SaaS, AI products, design systems and UX research.">
+  <meta property="og:image" content="assets/images/sumit-kumar-hero.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800;900&family=Kalam:wght@700&family=VT323&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a href="#top" class="brand" data-scroll="top">
+        <span class="mini-stripes"><span></span><span></span><span></span></span>
+        <strong>Sumit Kumar</strong>
+        <span class="mono muted">/ Baranwal Design</span>
+      </a>
+      <nav class="main-nav">
+        <a href="#work" data-scroll="work">Work</a>
+        <a href="#skills" data-scroll="skills">Skills</a>
+        <a href="#experience" data-scroll="experience">Experience</a>
+        <a href="#contact" data-scroll="contact">Contact</a>
+        <a href="assets/Sumit_Kumar_CV.pdf" target="_blank" rel="noopener" class="pill-btn">
+          Resume
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"/><path d="m7 10 5 5 5-5"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/></svg>
+        </a>
+      </nav>
+    </div>
+    <div class="stripes stripes-thin"><span></span><span></span><span></span></div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-text" id="heroText">
+          <span class="script hero-hi">hi, I'm</span>
+          <h1 class="hero-title">Sumit<br>Kumar</h1>
+          <div class="hero-stripes">
+            <span data-stripe="0"></span><span data-stripe="1"></span><span data-stripe="2"></span>
+          </div>
+          <div class="crt hero-crt" id="heroCrt">
+            <div class="crt-screen">
+              <span class="crt-label">&gt; ABOUT.TXT</span>
+              <span class="crt-typed"><span id="typed"></span><span id="caret">_</span></span>
+            </div>
+          </div>
+          <div class="btn-row">
+            <a href="#work" data-scroll="work" class="btn btn-cream">
+              See the work
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="assets/Sumit_Kumar_CV.pdf" target="_blank" rel="noopener" class="btn btn-outline">Download resume</a>
+          </div>
+        </div>
+
+        <div class="poster-wrap">
+          <div class="poster-sun" id="posterSun"></div>
+          <div class="poster-cuts"><span></span><span></span><span></span></div>
+          <figure class="poster" id="poster">
+            <div class="poster-photo">
+              <img id="posterImg" src="assets/images/sumit-kumar-hero.png" alt="Sumit Kumar at his desk">
+            </div>
+            <figcaption>
+              <span class="script">design, build, better</span>
+              <span class="mono red">IIT GUWAHATI</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="scroll-hint" id="scrollHint">
+        <span>SCROLL</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee">
+      <div class="marquee-track" id="marquee"></div>
+    </div>
+
+    <!-- WORK -->
+    <section id="work" class="container section">
+      <div class="section-head split">
+        <div>
+          <span class="script yellow tilt">the good stuff</span>
+          <h2>Selected work</h2>
+        </div>
+        <span class="mono green big">&gt; 06 PROJECTS_</span>
+      </div>
+      <div class="work-grid" id="workGrid"></div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+      <div class="container section skills-grid">
+        <div class="skills-left">
+          <div class="section-head">
+            <span class="script red tilt">on the shelf</span>
+            <h2>Skills</h2>
+          </div>
+          <div class="books" id="books"></div>
+        </div>
+        <div class="crt crt-large">
+          <div class="crt-screen" id="tools"></div>
+          <div class="crt-foot">
+            <span>SK-2026</span>
+            <span class="leds"><i class="teal"></i><i class="orange"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="container section">
+      <div class="section-head">
+        <span class="script yellow tilt">where I've been</span>
+        <h2>Experience</h2>
+      </div>
+      <div id="expList"></div>
+      <div class="edu-grid" id="eduGrid"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="container contact-grid">
+        <div class="contact-text">
+          <span class="script tilt">let's make something</span>
+          <h2>Good design. Brighter tomorrow.</h2>
+          <div class="contact-actions">
+            <a href="mailto:baranwalsumit70@gmail.com" class="btn btn-navy">
+              baranwalsumit70@gmail.com
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <div class="contact-links">
+              <a href="tel:+917017706211">+91 70177 06211</a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="assets/Sumit_Kumar_CV.pdf" target="_blank" rel="noopener">Resume</a>
+            </div>
+          </div>
+        </div>
+        <div class="sunset">
+          <div class="sunset-sun" id="sunsetSun"></div>
+          <div class="sunset-cuts"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+      <div class="stripes stripes-thick"><span></span><span></span><span></span></div>
+    </section>
+  </main>
+
+  <footer class="container site-footer">
+    <span>© 2026 Sumit Kumar · Baranwal Design</span>
+    <span class="mono green">GOOD DESIGN · BRIGHTER TOMORROW_</span>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
